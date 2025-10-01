@@ -1,0 +1,2 @@
+customtkinter
+yt-dlp
