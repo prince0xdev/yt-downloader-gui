@@ -1,0 +1,4 @@
+# --- Build / Distribution ---
+build/
+dist/
+*.spec
