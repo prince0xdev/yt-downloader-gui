@@ -1,4 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# --- Environnements virtuels ---
+.env
+.venv
+env/
+venv/
+build/
+ENV/
+dist/
+env.bak/
+venv.bak/
+
+# --- IDEs & éditeurs ---
+.vscode/
+.idea/
+*.swp
+
 # --- Build / Distribution ---
 build/
 dist/
 *.spec
+
+# --- Fichiers système ---
+.DS_Store
+Thumbs.db
+
+# --- Téléchargements utilisateurs ---
+/Downloads/
+/output/
+
+# --- ffmpeg binaire embarqué ---
+ffmpeg/bin/ffmpeg.exe
+ffmpeg/bin/*.dll
+
+# --- Historique / Cache ---
+*.json
+*.sqlite
+.cache/
