@@ -1,4 +1,4 @@
-# 🎵 YT Downloader GUI
+# YT Downloader GUI
 
 A modern graphical app to easily download YouTube videos and music, built with Python, yt-dlp, and CustomTkinter.
 
@@ -18,7 +18,7 @@ A modern graphical app to easily download YouTube videos and music, built with P
 
 1. **Clone the repo**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/prince0xdev/yt-downloader-gui
    cd yt-downloader
    ```
 2. **Install dependencies**
@@ -38,18 +38,7 @@ A modern graphical app to easily download YouTube videos and music, built with P
 
 ## 🖥️ Screenshot
 
-![screenshot](screenshot.png)
-
----
-
-## 📊 Analytics & Tracking
-
-To add analytics (e.g. Google Analytics, Matomo, Sentry):
-- Use a web API or analytics service compatible with Python
-- Send events on key actions (launch, download, error, etc.)
-- Respect user privacy (GDPR)
-
-Example: [Plausible Analytics](https://plausible.io/docs/stats-api) or [Sentry](https://sentry.io/welcome/)
+![screenshot](/assets/demo.png)
 
 ---
 
@@ -72,7 +61,7 @@ This project is MIT licensed. See [LICENSE](LICENSE).
 
 ## 👤 Author
 
-- [Your Name or Nickname](https://github.com/yourprofile)
+- [Ekpinse Prince](https://github.com/yourprofile)
 
 ---
 

@@ -1,29 +1,11 @@
 
-# 🎵 YT Downloader GUI
+# YT Downloader GUI
 
 ![version](https://img.shields.io/badge/version-0.0.1-blue)
 
 ![screenshot](/assets/demo.png)
 
 Une application graphique moderne pour télécharger facilement des vidéos et musiques YouTube, basée sur Python, yt-dlp et CustomTkinter.
-
----
-
-## 🛠️ Exporter en .exe (Windows)
-
-1. Installe PyInstaller :
-   ```bash
-   pip install pyinstaller
-   ```
-2. Compile l'exécutable :
-   ```bash
-   pyinstaller yt-downloader.spec
-   ```
-3. Le .exe sera dans le dossier `dist/yt-downloader/`
-
-**N'oublie pas de garder le dossier ffmpeg/bin/ffmpeg.exe dans la structure !**
-
----
 
 ---
 
@@ -41,7 +23,7 @@ Une application graphique moderne pour télécharger facilement des vidéos et m
 
 1. **Cloner le repo**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/prince0xdev/yt-downloader-gui
    cd yt-downloader
    ```
 2. **Installer les dépendances**
@@ -58,7 +40,6 @@ Une application graphique moderne pour télécharger facilement des vidéos et m
    ```
 
 ---
-
 
 ## 🤝 Contribuer
 
@@ -79,7 +60,7 @@ Ce projet est sous licence MIT. Voir [LICENSE](LICENSE).
 
 ## 👤 Auteur
 
-- [EKpinse Prince](https://github.com/princeOxdev)
+- [Ekpinse Prince](https://github.com/princeOxdev)
 
 ---
 
