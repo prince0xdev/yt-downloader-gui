@@ -2,7 +2,7 @@
 
 Merci de votre intérêt ! Voici comment contribuer efficacement :
 
-## 🛠️ Processus
+## 🛠️ Processus 
 
 1. Forkez le repo
 2. Créez une branche dédiée (`feature/ma-fonctionnalite`)
