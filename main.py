@@ -47,8 +47,10 @@ def download_video():
         try:
             with YoutubeDL({'quiet': True, 'skip_download': True}) as ydl:
                 info = ydl.extract_info(url, download=False)
+                extractor = info.get('extractor_key', 'Unknown Site')
                 title = info.get('title', 'Titre inconnu')
-                app.after(0, lambda: video_title_label.configure(text=f"🎬 {title}"))
+                #print("info on video", title, extractor)
+                app.after(0, lambda: video_title_label.configure(text=f"🎬 {title} - ( {extractor} ) "))
         except Exception:
             app.after(0, lambda: video_title_label.configure(text="Titre non trouvé"))
 
