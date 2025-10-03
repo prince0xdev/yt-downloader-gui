@@ -33,8 +33,6 @@ def download_video():
     spinner_frame.pack()
     spinner_label.start()
 
-
-
     # Réinitialise la barre et le label stats
     progress_bar.set(0)
     stats_label.configure(text="")
@@ -63,7 +61,7 @@ def download_video():
                 percent = (downloaded / total_bytes) if total_bytes else 0
                 speed = d.get('speed')
                 eta = d.get('eta')
-                # Correction : si speed ou eta est None, affiche "?"
+                
                 speed_str = f"{(speed/1024):.1f}" if speed is not None else "?"
                 eta_str = f"{eta:.2f}" if eta is not None else "?"
                 app.after(0, lambda: progress_bar.set(percent))
