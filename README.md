@@ -1,7 +1,7 @@
 
 # YT Downloader GUI
 
-![version](https://img.shields.io/badge/version-0.0.1-blue)
+![version](https://img.shields.io/badge/version-0.0.1-blue) ![Profile Views](https://komarev.com/ghpvc/?username=prince0xdev&color=blue)
 
 ![screenshot](/assets/demo.png)
 
