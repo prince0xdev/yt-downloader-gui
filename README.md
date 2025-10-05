@@ -1,8 +1,7 @@
 
 # YT Downloader GUI
 
-![version](https://img.shields.io/badge/version-0.0.1-blue) ![Repo Views](https://github-views-counter.vercel.app/prince0xdev/yt-downloader-gui)
-
+![version](https://img.shields.io/badge/version-0.0.1-blue)
 ![screenshot](/assets/demo.png)
 
 Une application graphique moderne pour télécharger facilement des vidéos et musiques YouTube, basée sur Python, yt-dlp et CustomTkinter.
